@@ -4,11 +4,14 @@ import Hello from "./components/Hello";
 
 function App() {
   const [count, setCount] = useState(0);
-
+  const person = {
+    name : "zyn",
+    message : "Hi There",
+    seatnumbers : [1,3,5]
+  }
   return (
     <div className="App">
-      <Hello name="zyn" message="Hi There" />
-      <Hello name="jason" message="Hello There" />
+      <Hello person={person} />
     </div>
   );
 }

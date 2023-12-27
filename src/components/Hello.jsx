@@ -4,10 +4,10 @@ function displaymessage(data) {
   return data;
 }
 
-function Hello(props) {
+function Hello({ person }) {
   return (
     <h1>
-      {props.message}! {props.name}
+      {person.message}! {person.name} , {person.seatnumbers}
     </h1>
   );
 }
