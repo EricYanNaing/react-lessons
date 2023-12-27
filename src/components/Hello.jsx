@@ -1,4 +1,14 @@
-function Hello() {
-  return <h1>Hello from a component</h1>;
+const name = "zyn";
+
+function displaymessage(data) {
+  return data;
+}
+
+function Hello(props) {
+  return (
+    <h1>
+      {props.message}! {props.name}
+    </h1>
+  );
 }
 export default Hello;
