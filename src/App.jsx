@@ -4,6 +4,7 @@ import Hello from "./components/Hello";
 import Fruits from "./components/Frutis";
 import ConditionalComponent from "./components/ConditionalComponent";
 import Conditional from "./components/Conditional";
+import TernaryOperator from "./components/TernaryOperator";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,7 +18,8 @@ function App() {
       {/* <Hello person={person} /> */}
       {/* <Fruits /> */}
       {/* <ConditionalComponent /> */}
-      <Conditional />
+      {/* <Conditional /> */}
+      <TernaryOperator />
     </div>
   );
 }
