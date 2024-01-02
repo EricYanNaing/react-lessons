@@ -16,10 +16,10 @@ function App() {
   return (
     <div className="App">
       {/* <Hello person={person} /> */}
-      {/* <Fruits /> */}
+      <Fruits />
       {/* <ConditionalComponent /> */}
       {/* <Conditional /> */}
-      <TernaryOperator />
+      {/* <TernaryOperator /> */}
     </div>
   );
 }
